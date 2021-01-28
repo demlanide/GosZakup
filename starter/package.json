@@ -1,0 +1,33 @@
+{
+  "name": "project_name",
+  "banner_name": "ProjectName",
+  "description": "Some description about the project",
+  "version": "1.0.0",
+  "private": true,
+  "keywords": [
+    "project",
+    "admin",
+    "dashboard",
+    "webapp"
+  ],
+  "homepage": "http://thetheme.io/theadmin",
+  "author": "TheTheme.io",
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.0",
+    "grunt-contrib-uglify": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-neuter": "^0.6.0",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^1.0.0",
+    "load-grunt-tasks": "^3.5.2",
+    "postcss-flexbugs-fixes": "^2.0.0",
+    "time-grunt": "^1.2.1"
+  },
+  "dependencies": {}
+}

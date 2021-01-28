@@ -1,0 +1,48 @@
+.sidebar-profile {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+body > .topbar.hidden-md-up + main {
+  padding-top: 0;
+}
+
+@media (max-width: 767px) {
+  body > .topbar.hidden-md-up + main {
+    padding-top: 64px;
+  }
+}
+.form_body {
+	margin:10px 10px 20px;
+    background: #fff;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+}
+.form-list {
+	padding: 20px;
+}
+.form-list .form-group label {
+	display: block;
+	font-size: 13px;
+    font-weight: 700;
+    color: #5F5F5F;
+}
+.form-list .form-group input {
+	height: 34px;
+	width: 100%;
+	background: #fff;
+    border-radius: 3px;
+    border: 1px solid #dce1e4;
+    box-shadow: none!important;
+    font-size: 13px;
+    padding: 8px 13px!important;
+    outline: none;
+}
+.form-list .form-group ::placeholder {
+	color: #C5BFC5;
+}
+.form_btns {
+	background: #f3f5f7;
+    padding: 10px 20px;
+    text-align: center;
+}
